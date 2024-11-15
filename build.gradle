@@ -34,7 +34,7 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
 
     runtimeOnly 'com.mysql:mysql-connector-j' // MySQL 사용 시
-    implementation 'com.h2.databse:h2'
+    implementation 'com.h2database:h2:2.2.224'
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
