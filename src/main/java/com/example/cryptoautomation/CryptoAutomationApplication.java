@@ -8,6 +8,7 @@ public class CryptoAutomationApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(CryptoAutomationApplication.class, args);
+        SpringApplication.exit(run);
     }
 
 }
